@@ -1,4 +1,4 @@
-<!-- TITLE: Home -->
+<!-- TITLE: Bienvenue -->
 <!-- SUBTITLE: A quick summary of Home -->
 
 # test
