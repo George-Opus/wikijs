@@ -1,6 +1,6 @@
 <!-- TITLE: Bienvenue -->
-<!-- SUBTITLE: A quick summary of Home -->
 
-# test
 
-Home page
+Bienvenue dans notre WIKI. 
+
+C'est ici que la connaisance OIOT ce partage !!
