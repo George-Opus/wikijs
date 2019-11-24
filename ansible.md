@@ -38,7 +38,7 @@ george ➜ ansible-epsi > tree ./
                   │   ├── inventory
                   │   └── test.yml
                   └── vars
-				└── main.yml
+				      └── main.yml
 ```
 Nous allons donc voir étape par étape a quoi serve c'est différent fichier. 
 
