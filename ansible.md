@@ -90,6 +90,7 @@ dans les autres fichier, nous avons par example :
 ```
 
 ou bien 
+
 ```yaml
 ---
 #créé le fichier de configuration du site grace a un template. 
@@ -117,12 +118,12 @@ ou bien
   command: 
     cmd: a2dissite default-ssl.conf
     creates: /etc/apache2/sites-enabled/default-ssl.conf
-		```
+```
 		
-		dans le yaml si dessus nous utilison le module template.
-		les template son écrit en jinja 2 et ce trouve dans le répertoire : *roles/apache/templates*
+Dans le yaml si dessus nous utilison le module template.
+Les template son écrit en jinja 2 et ce trouve dans le répertoire : *roles/apache/templates*
 		
-		```jinja
+```jinja
 		<VirtualHost *:80>
         ServerAlias {{ vhost_alias }}
         DocumentRoot {{ vhost_root_directory }}
@@ -160,4 +161,4 @@ ou bien
     </Directory>
 RewriteEngine on
 </VirtualHost>
-		```
+```
